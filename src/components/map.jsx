@@ -51,7 +51,9 @@ class Map extends Component {
   }
 
   render() {
-    return <Wrapper width="700px" height="400px" id="map" />;
+    return (
+      <Wrapper className="container" height="45em" width="2.75em" id="map" />
+    );
   }
 }
 
